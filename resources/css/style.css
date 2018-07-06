@@ -131,7 +131,7 @@ header .mobile {
   border-radius: 4px;
   background-color: #9dc20b;
   position: relative;
-  top: 180px;
+  top: 170px;
   left: 100px;
 }
 
@@ -279,6 +279,11 @@ header .mobile {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
   }
+
+  .feature .content {
+    padding: 1.25rem 0 1.875rem 0;
+  }
+
 }
 
 /* Filters Section */
@@ -347,11 +352,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
